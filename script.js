@@ -207,8 +207,8 @@ function drawText() {
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
         [
-          "and yet here I am to get the impossible",
-          "chance to get to know you",
+          "and Ayush Want one last",
+          "Chance for his Lady Love",
         ],
         canvas.width / 2,
         canvas.height / 2,
@@ -217,7 +217,7 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "and yet here I am to get the impossible chance to get to know you",
+        "and Ayush Want one last chance for his Lady Love",
         canvas.width / 2,
         canvas.height / 2
       );
@@ -231,8 +231,8 @@ function drawText() {
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
         [
-          "and yet here I am to get the impossible",
-          "chance to get to know you",
+          "and Ayush Want one last",
+          "chance for his Lady Love",
         ],
         canvas.width / 2,
         canvas.height / 2,
@@ -241,7 +241,7 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "and yet here I am to get the impossible chance to get to know you",
+        "and Ayush Want one last chance for his Lady Love",
         canvas.width / 2,
         canvas.height / 2
       );
