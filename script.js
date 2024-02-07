@@ -335,4 +335,10 @@ window.addEventListener("resize", function () {
   baseFrame = context.getImageData(0, 0, window.innerWidth, window.innerHeight);
 });
 
+window.addEventListener("DOMContentLoaded", event => {
+  const audio = document.querySelector("audio");
+  audio.volume = 0.2;
+  audio.play();
+});
+
 window.requestAnimationFrame(draw);
